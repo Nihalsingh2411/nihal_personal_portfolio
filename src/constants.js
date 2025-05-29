@@ -198,7 +198,7 @@ export const SkillsInfo = [
       id: 0,
       title: "AI Resume Analyzer",
       description:
-        "An intelligent resume analyzer that uses Gemini to assess ATS compatibility, suggest improvements, and generate tailored cover letters. Includes a dynamic dashboard for managing uploads, tracking classifications, and exploring relevant job listings—streamlining the path to resume shortlisting.",
+        `An intelligent resume analyzer that uses Gemini to assess ATS compatibility, suggest improvements, and generate tailored cover letters. Includes a dynamic dashboard for managing uploads, tracking classifications, and exploring relevant job listings—streamlining the path to resume shortlisting.`,
       image: githubdetLogo,
       tags: ["Python","NLP", "Gen AI", "SQL", "Rapid API", "Streamlit"],
       github: "https://github.com/2411nihalsingh/NLP-Based-Resume-Analyzer",
@@ -206,36 +206,30 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      title: "MLOps Pipeline for Network Security System ",
-      description:
-        "A robust end-to-end MLOps pipeline designed for intelligent network threat detection. It streamlines data preprocessing, model training, and monitoring using MongoDB and MLflow. Deployed on AWS with Docker and FastAPI, the system enables real-time classification of potential security threats, making it a valuable tool for proactive cybersecurity management.
-
-
-
-",
+      title: "MLOps Pipeline for Network Security System",
+      description:"A robust end-to-end MLOps pipeline for network security, featuring automated data processing, model training, and evaluation. Integrated with MongoDB and MLflow for seamless tracking, and deployed on AWS using Docker and FastAPI for scalable, real-time threat classification",
       image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
+      tags: ["Python","Machine Learning", "Classification", "Random Forest" ,"AWS","CI/CD","FastAPI","MLflow"],
+      github: "https://github.com/2411nihalsingh/networksecurity",
       webapp: "https://csprep.netlify.app/",
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
-      description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+      title: "Image Captioning using CNN & NLP",
+      description: "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
       image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
+      tags: ["Python", "Deep Learning","CNN", "NLP", "Kaggle"],
+      github: "https://github.com/2411nihalsingh/Image_Captioning_Project_Using_CNN_NLP",
       webapp: "https://movie-recommendation-app-jet.vercel.app/",
     },
     {
       id: 3,
-      title: "Email Validator NPM Package",
+      title: "Customer Churn Prediction",
       description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+        "A deep learning-based customer churn prediction model using artificial neural networks (ANN). It analyzes customer behavior to identify churn risk and helps businesses improve retention through data-driven strategies.",
       image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
+      tags: ["ANN", "Tensorflow", "Numpy", "scikit-learn","tensorboard"],
+      github: "https://github.com/2411nihalsingh/ANN_Classification_Churn",
       webapp: "https://www.npmjs.com/package/cmtk-email-validator",
     },
     {

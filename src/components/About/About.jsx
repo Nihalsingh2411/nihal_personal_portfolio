@@ -42,7 +42,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="italic text-white text-base sm:text-lg md:text-sm mb-2">
-             “Solving problems is my thing—AI just makes it cooler.”
+             “Solving problems is my thing—AI just makes it cooler”
           </p>
           <p className="text-base text-justify sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
            I'm an AI/ML enthusiast with hands-on experience in building data-driven solutions using machine learning, deep learning, and data analysis. Backed by strong DSA skills, I enjoy turning real-world problems into intelligent, efficient models.

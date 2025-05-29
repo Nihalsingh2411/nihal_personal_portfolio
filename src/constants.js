@@ -1,5 +1,5 @@
 // Skills Section Logo's
-import tensorflowLogo from "./assets/tech_logo/tensorflowLogo.webp";
+import tensorflowLogo from "./assets/tech_logo/tensorflow.png";
 import kerasLogo from "./assets/tech_logo/keras.png";
 import pytorchLogo from "./assets/tech_logo/pytorch.png";
 import sklearnLogo from "./assets/tech_logo/sklearn.png";
@@ -35,8 +35,7 @@ import openCVLogo from './assets/tech_logo/opencv.png';
 
 // Experience Section Logo's
 import corecardLogo from './assets/company_logo/corecard.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import mitsLogo from './assets/company_logo/mits.jpg';
 
 // Education Section Logo's
 import glaLogo from './assets/education_logo/gla_logo.png';
@@ -137,19 +136,20 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+      img: mitsLogo,
+      role: "Undergraduate Summer Intern",
+      company: "MITS Gwalior",
+      date: "Jun 2023 - Jul 2023",
+      desc: "Preprocessed a dataset of 10,000 records, resolving missing values and outliers to ensure data quality. Conducted in-depth exploratory data analysis and built a machine learning model achieving 95% accuracy for reliable predictions.",
       skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
+        "Python",
+        "Pandas",
+        "Numpy",
+        "Matplotlib",
+        "Seaborn",
+        "EDA",
+        "Visualization",
+        "Regression",
       ],
     },
   ];
@@ -196,19 +196,23 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "AI Resume Analyzer",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
+        "An intelligent resume analyzer that uses Gemini to assess ATS compatibility, suggest improvements, and generate tailored cover letters. Includes a dynamic dashboard for managing uploads, tracking classifications, and exploring relevant job listings—streamlining the path to resume shortlisting.",
       image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+      tags: ["Python","NLP", "Gen AI", "SQL", "Rapid API", "Streamlit"],
+      github: "https://github.com/2411nihalsingh/NLP-Based-Resume-Analyzer",
+      webapp: "https://ai-resume-analyzer-hbdwxwbfabmgrvfkrklmqs.streamlit.app/",
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "MLOps Pipeline for Network Security System ",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
+        "A robust end-to-end MLOps pipeline designed for intelligent network threat detection. It streamlines data preprocessing, model training, and monitoring using MongoDB and MLflow. Deployed on AWS with Docker and FastAPI, the system enables real-time classification of potential security threats, making it a valuable tool for proactive cybersecurity management.
+
+
+
+",
       image: csprepLogo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/codingmastr/CSPrep",

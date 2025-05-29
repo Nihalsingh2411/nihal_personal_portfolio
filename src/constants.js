@@ -38,8 +38,9 @@ import corecardLogo from './assets/company_logo/corecard.png';
 import mitsLogo from './assets/company_logo/mits.jpg';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
+
+import rishigalavLogo from './assets/education_logo/rishiglv.jpg';
+import sjvsLogo from './assets/education_logo/sjvs.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
@@ -157,39 +158,30 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      img: mitsLogo,
+      school: "Madhav Institute of Technology and Science, Gwalior",
+      date: "2022-2026",
+      grade: "8.45 GPA",
+      desc: "I am currently pursuing B.Tech in Artificial Intelligence and Machine Learning from Madhav Institute of Technology and Science (MITS), Gwalior, with a current GPA of 8.45. I have gained a strong foundation in subjects like Data Structures and Algorithms, OOPS, Operating Systems, DBMS, Computer Networks and Data Science. I have been actively involved in academic and technical activities.This ongoing journey at MITS is continuously shaping my capabilities in the field of AI and computer science.",
+      degree: "B.Tech in Artificial Intelligence & Machine Learning",
     },
     {
       id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      img: rishigalavLogo,
+      school: "Rishi Galav Public School, Gwalior",
+      date: "Apr 2020 - March 2021",
+      grade: "92%",
+      desc: "I completed my class 12 education from Rishi Galav Public School, Gwalior, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM), sparking my interest in technology and programming.",
+      degree: "CBSE(XII) - PCM",
     },
     {
       id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
+      img: sjvsLogo,
+      school: "St.John Vianney School,Gwalior",
+      date: "Apr 2018 - March 2019",
+      grade: "90%",
+      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Information Technology.",
+      degree: "CBSE(X), Science with Information Technology",
     },
   ];
   

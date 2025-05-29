@@ -34,7 +34,7 @@ import langchainLogo from './assets/tech_logo/langchain.svg';
 import openCVLogo from './assets/tech_logo/opencv.png'; 
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
+import corecardLogo from './assets/company_logo/corecard.png';
 import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
@@ -117,7 +117,7 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
-      img: webverseLogo,
+      img: corecardLogo,
       role: "Software Engineer Intern",
       company: "Corecard Software India Pvt. Ltd. Bhopal",
       date: " Jun 2024 - Jul 2024",
@@ -150,22 +150,6 @@ export const SkillsInfo = [
         "HTML",
         "CSS",
         "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
       ],
     },
   ];

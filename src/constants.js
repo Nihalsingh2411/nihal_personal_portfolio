@@ -43,16 +43,14 @@ import rishigalavLogo from './assets/education_logo/rishiglv.jpg';
 import sjvsLogo from './assets/education_logo/sjvs.png';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
 
+import resumeLogo from './assets/work_logo/resumeAnalyzer.webp';
+import networkLogo from './assets/work_logo/networksecurity2.jpg';
+import imgcapLogo from './assets/work_logo/imgcaptioning.png';
+import churnLogo from './assets/work_logo/churn.png';
+import chestxrayLogo from './assets/work_logo/chestxray.jpg';
+import moviestreamLogo from './assets/work_logo/moviestream.jpg';
+import portfolioLogo from './assets/work_logo/portfolio.png';
 
 export const SkillsInfo = [
   {
@@ -126,7 +124,7 @@ export const SkillsInfo = [
         "CSS",
         "Bootstrap",
         "JavaScript",
-        "React JS",
+        "React.js",
         "UI/UX",
         "REST API",
         "Postman",
@@ -190,7 +188,7 @@ export const SkillsInfo = [
       title: "AI Resume Analyzer",
       description:
         `An intelligent resume analyzer that uses Gemini to assess ATS compatibility, suggest improvements, and generate tailored cover letters. Includes a dynamic dashboard for managing uploads, tracking classifications, and exploring relevant job listings—streamlining the path to resume shortlisting.`,
-      image: githubdetLogo,
+      image: resumeLogo,
       tags: ["Python","NLP", "Gen AI", "SQL","Google Gemini", "Rapid API","LLM","Name-Entity Recognition","Streamlit"],
       github: "https://github.com/2411nihalsingh/NLP-Based-Resume-Analyzer",
       webapp: "https://ai-resume-analyzer-hbdwxwbfabmgrvfkrklmqs.streamlit.app/",
@@ -199,7 +197,7 @@ export const SkillsInfo = [
       id: 1,
       title: "MLOps Pipeline for Network Security System",
       description:"A robust end-to-end MLOps pipeline for network security, featuring automated data processing, model training, and evaluation. Integrated with MongoDB and MLflow for seamless tracking, and deployed on AWS using Docker and FastAPI for scalable, real-time threat classification",
-      image: csprepLogo,
+      image: networkLogo,
       tags: ["Machine Learning","Python", "Classification", "Random Forest" ,"AWS","CI/CD","MLflow"],
       github: "https://github.com/2411nihalsingh/networksecurity",
       webapp: "https://csprep.netlify.app/",
@@ -208,7 +206,7 @@ export const SkillsInfo = [
       id: 2,
       title: "Image Captioning using CNN & NLP",
       description: "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
+      image: imgcapLogo,
       tags: ["Python", "Deep Learning","CNN", "NLP","Transfer Learnning", "Kaggle"],
       github: "https://github.com/2411nihalsingh/Image_Captioning_Project_Using_CNN_NLP",
       webapp: "https://movie-recommendation-app-jet.vercel.app/",
@@ -218,7 +216,7 @@ export const SkillsInfo = [
       title: "Customer Churn Prediction",
       description:
         "A deep learning-based customer churn prediction model using artificial neural networks (ANN). It analyzes customer behavior to identify churn risk and helps businesses improve retention through data-driven strategies.",
-      image: npmLogo,
+      image: churnLogo,
       tags: ["ANN", "Tensorflow", "Numpy", "Scikit-learn","Tensorboard"],
       github: "https://github.com/2411nihalsingh/ANN_Classification_Churn",
       webapp: "https://www.npmjs.com/package/cmtk-email-validator",
@@ -228,7 +226,7 @@ export const SkillsInfo = [
       title: "Chest X-Ray Classifier",
       description:
         "An intelligent deep learning system designed to classify chest X-rays into Normal, Pneumonia, or COVID-19 categories using Convolutional Neural Networks (CNNs). The model is trained on a labeled medical imaging dataset to achieve high diagnostic accuracy. Integrated with OpenCV, the system allows real-time image capture and instant classification, making it suitable for rapid preliminary screening in clinical settings. The project demonstrates the potential of AI in assisting radiologists by automating and accelerating diagnosis processes.",
-      image: taskremLogo,
+      image: chestxrayLogo,
       tags: ["CNN", "Deep Learning", "OpenCV", "AI","Bio Medical","Streamlit","Feature Extraction"],
       github: "https://github.com/2411nihalsingh/Chest_X-Ray_Classification_Using_CNN",
       webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
@@ -238,8 +236,8 @@ export const SkillsInfo = [
       title: "Movies Streaming Platform",
       description:
         "A full-stack media platform with user login, movie recommendations, and genre-wise browsing. Built using React.js and Node.js, it features a responsive UI, secure backend, and personalized content suggestions for an engaging viewing experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "JWT","Full Stack","TMDB API"],
+      image: moviestreamLogo,
+      tags: ["React.js", "Node.js", "MongoDB", "Express", "JWT","Full Stack","TMDB API"],
       github: "https://github.com/2411nihalsingh/Netflix-Clone",
       webapp: "https://codingmasterweb.in/",
     },
@@ -248,8 +246,8 @@ export const SkillsInfo = [
       title: "Portfolio Website",
       description:
         "A sleek and responsive React.js portfolio website showcasing my projects, skills, and experience. Built with Tailwind CSS, it features smooth navigation, dark mode, and interactive UI components—designed to offer recruiters and visitors a seamless browsing experience.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Tailwind","React JS","EmailJS","Responsive"],
+      image: portfolioLogo,
+      tags: ["HTML", "CSS", "JavaScript", "Tailwind","React.js","EmailJS","Responsive"],
       github: "https://github.com/codingmastr/Webverse-Digital",
       webapp: "https://webversedigital.com/",
     },

@@ -41,7 +41,6 @@ import mitsLogo from './assets/company_logo/mits.jpg';
 
 import rishigalavLogo from './assets/education_logo/rishiglv.jpg';
 import sjvsLogo from './assets/education_logo/sjvs.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
@@ -236,16 +235,6 @@ export const SkillsInfo = [
     },
     {
       id: 5,
-      title: "Portfolio Website",
-      description:
-        "A sleek and responsive React.js portfolio website showcasing my projects, skills, and experience. Built with Tailwind CSS, it features smooth navigation, dark mode, and interactive UI components—designed to offer recruiters and visitors a seamless browsing experience.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Tailwind","React JS","EmailJS","Responsive"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
-    },
-    {
-      id: 6,
       title: "Movies Streaming Platform",
       description:
         "A full-stack media platform with user login, movie recommendations, and genre-wise browsing. Built using React.js and Node.js, it features a responsive UI, secure backend, and personalized content suggestions for an engaging viewing experience.",
@@ -255,23 +244,13 @@ export const SkillsInfo = [
       webapp: "https://codingmasterweb.in/",
     },
     {
-      id: 7,
-      title: "Image Search App",
+      id: 6,
+      title: "Portfolio Website",
       description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
+        "A sleek and responsive React.js portfolio website showcasing my projects, skills, and experience. Built with Tailwind CSS, it features smooth navigation, dark mode, and interactive UI components—designed to offer recruiters and visitors a seamless browsing experience.",
+      image: webverLogo,
+      tags: ["HTML", "CSS", "JavaScript", "Tailwind","React JS","EmailJS","Responsive"],
+      github: "https://github.com/codingmastr/Webverse-Digital",
+      webapp: "https://webversedigital.com/",
     },
   ];  

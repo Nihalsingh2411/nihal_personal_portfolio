@@ -47,8 +47,8 @@ import sjvsLogo from './assets/education_logo/sjvs.png';
 import resumeLogo from './assets/work_logo/resumeAnalyzer.webp';
 import networkLogo from './assets/work_logo/networksecurity2.jpg';
 import imgcapLogo from './assets/work_logo/imgcaptioning.png';
-import churnLogo from './assets/work_logo/churn.png';
-import chestxrayLogo from './assets/work_logo/chestxray.jpg';
+import churnLogo from './assets/work_logo/churn.webp';
+import chestxrayLogo from './assets/work_logo/chestxray.webp';
 import moviestreamLogo from './assets/work_logo/moviestream.jpg';
 import portfolioLogo from './assets/work_logo/portfolio.png';
 
@@ -204,7 +204,7 @@ export const SkillsInfo = [
     },
     {
       id: 2,
-      title: "Image Captioning using CNN & NLP",
+      title: "Image Caption Generator",
       description: "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
       image: imgcapLogo,
       tags: ["Python", "Deep Learning","CNN", "NLP","Transfer Learnning", "Kaggle"],

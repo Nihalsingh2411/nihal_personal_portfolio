@@ -209,7 +209,7 @@ export const SkillsInfo = [
       image: imgcapLogo,
       tags: ["Python", "Deep Learning","CNN", "NLP","Transfer Learnning", "Kaggle"],
       github: "https://github.com/2411nihalsingh/Image_Captioning_Project_Using_CNN_NLP",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      webapp: "",
     },
     {
       id: 3,
@@ -219,7 +219,7 @@ export const SkillsInfo = [
       image: churnLogo,
       tags: ["ANN", "Tensorflow", "Numpy", "Scikit-learn","Tensorboard"],
       github: "https://github.com/2411nihalsingh/ANN_Classification_Churn",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+      webapp: "",
     },
     {
       id: 4,
@@ -229,7 +229,7 @@ export const SkillsInfo = [
       image: chestxrayLogo,
       tags: ["CNN", "Deep Learning", "OpenCV", "AI","Bio Medical","Streamlit","Feature Extraction"],
       github: "https://github.com/2411nihalsingh/Chest_X-Ray_Classification_Using_CNN",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+      webapp: "",
     },
     {
       id: 5,
@@ -239,7 +239,7 @@ export const SkillsInfo = [
       image: moviestreamLogo,
       tags: ["React.js", "Node.js", "MongoDB", "Express", "JWT","Full Stack","TMDB API"],
       github: "https://github.com/2411nihalsingh/Netflix-Clone",
-      webapp: "https://codingmasterweb.in/",
+      webapp: "",
     },
     {
       id: 6,
@@ -249,6 +249,6 @@ export const SkillsInfo = [
       image: portfolioLogo,
       tags: ["HTML", "CSS", "JavaScript", "Tailwind","React.js","EmailJS","Responsive"],
       github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+      webapp: "",
     },
   ];  

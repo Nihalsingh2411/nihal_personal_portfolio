@@ -27,8 +27,8 @@ const About = () => {
               text={[
                 'Data Scientist',
                 'AI/ML Enthusiast',
-                'Frontend Developer',
                 'DSA Expert',
+                'Frontend Developer',
                 'Tech Explorer'
               ]}
               speed={100}
